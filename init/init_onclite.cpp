@@ -1,7 +1,7 @@
 /*
    Copyright (c) 2016, The CyanogenMod Project
    Copyright (C) 2019 The LineageOS Project.
-
+   Copyright (c) 2014, The Linux Foundation. All rights reserved.
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
    met:
@@ -59,5 +59,5 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "onc-user 9 PKQ1.181021.001 V10.3.4.0.PFLMIXM release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/bonito/bonito:10/QQ2A.200305.002/6138846:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.200105.004/6031802:user/release-keys");
 }
