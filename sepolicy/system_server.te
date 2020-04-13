@@ -4,3 +4,7 @@ r_dir_file(system_server, keylayout_file);
 
 # Fingerprint
 get_prop(system_server, fp_prop);
+
+allow system_server persist_camera_prop:file { read };
+allow system_server sysfs:file { read };
+allow system_server vendor_default_prop:file { read };
