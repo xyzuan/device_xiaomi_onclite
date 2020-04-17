@@ -1,2 +1,8 @@
 allow init proc_boot_reason:file r_file_perms;
 allow init system_file:file { execute_no_trans };
+
+#============= init ==============
+allow init kernel:security setcheckreqprot;
+allow init kernel:system module_request;
+allow init rootfs:file { create write };
+allow init rootfs:lnk_file setattr;

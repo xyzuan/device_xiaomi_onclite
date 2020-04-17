@@ -1,1 +1,4 @@
 allow kernel mnt_vendor_file:dir { search };
+
+#============= kernel ==============
+allow kernel mnt_vendor_file:file read;

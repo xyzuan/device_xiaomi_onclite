@@ -1,0 +1,7 @@
+#============= untrusted_app ==============
+allow untrusted_app persist_camera_prop:file read;
+allow untrusted_app sysfs_kgsl:dir search;
+allow untrusted_app vendor_default_prop:file read;
+allow untrusted_app hal_memtrack_hwservice:hwservice_manager find;
+allow untrusted_app persist_camera_prop:file open;
+allow untrusted_app vendor_default_prop:file open;
