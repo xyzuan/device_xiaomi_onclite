@@ -1,2 +1,0 @@
-#============= logd ==============
-allow logd rootfs:file { entrypoint execute getattr read };

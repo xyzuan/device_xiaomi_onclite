@@ -1,7 +1,0 @@
-allow misc_writer sysfs_dt_firmware_android:dir { search };
-
-#============= misc_writer ==============
-allow misc_writer sysfs_dt_firmware_android:file read;
-allow misc_writer sysfs_dt_firmware_android:file open;
-allow misc_writer sysfs_dt_firmware_android:dir read;
-allow misc_writer sysfs_dt_firmware_android:file getattr;

@@ -1,2 +1,0 @@
-#============= cnd ==============
-allow cnd default_android_hwservice:hwservice_manager find;

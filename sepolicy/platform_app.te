@@ -1,7 +1,0 @@
-allow platform_app vendor_default_prop:file { read };
-allow platform_app sysfs_kgsl:dir { search };
-
-#============= platform_app ==============
-allow platform_app time_daemon:unix_stream_socket connectto;
-allow platform_app vendor_default_prop:file open;
-allow platform_app vendor_default_prop:file getattr;
