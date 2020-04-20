@@ -1,0 +1,12 @@
+[
+ {
+   "repository"    : "CarbonROM/android_kernel_xiaomi_onclite",
+   "target_path"   : "kernel/xiaomi/onclite",
+   "revision"      : "cr-8.0"
+ },
+ {
+   "repository"    : "CarbonROM/android_vendor_xiaomi_onclite",
+   "target_path"   : "vendor/xiaomi/onclite",
+   "branch"        : "cr-8.0"
+ }
+]
