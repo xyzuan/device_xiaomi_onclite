@@ -17,7 +17,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_WIFI_EXT := false
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
